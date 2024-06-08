@@ -27,6 +27,32 @@ Trend Analysis: Visualization of historical trends and future projections based 
 
 Comparative Analysis: Comparison of revenue metrics across different time periods, regions, and segments within the hospitality industry.
 
+DAX Measures:
+Below are some of the key DAX measures used in this project:
+
+Total Revenue:
+Total Revenue = SUM('Revenue'[Amount])
+Average Daily Rate (ADR):
+
+Average Daily Rate:
+ADR = DIVIDE([Total Revenue], SUM('Room Nights'[Nights]))
+Occupancy Rate:
+
+Occupancy Rate:
+Occupancy Rate = DIVIDE(SUM('Room Nights'[Occupied Nights]), SUM('Room Nights'[Available Nights]))
+Revenue per Available Room (RevPAR):
+
+RevPAR(Revenue Per Available Room):
+RevPAR = DIVIDE([Total Revenue], SUM('Room Nights'[Available Rooms]))
+Year-over-Year Revenue Growth:
+
+YoY Revenue Growth:
+YoY Revenue Growth = 
+  DIVIDE(
+    [Total Revenue] - CALCULATE([Total Revenue], DATEADD('Date'[Date], -1, YEAR)),
+    CALCULATE([Total Revenue], DATEADD('Date'[Date], -1, YEAR))
+  )
+
 Usage:
 1.Load the Data: Ensure that all necessary data sources are accessible. If the PBIX file requires external data connections, make sure those are properly configured and accessible from your Power BI setup.
 2.Explore the Reports: Navigate through the various report pages to explore different aspects of the revenue insights. Each page contains visualizations and data points that highlight specific metrics and trends.
