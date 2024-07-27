@@ -13,7 +13,6 @@ Before you begin, ensure you have the following software installed:
 Revenue Insights in Hospitality.pbix: This is the main Power BI file containing all the data models, reports, and visualizations related to the project.
 
 # Installation:
-
   1.Download Power BI Desktop: If you don't already have Power BI Desktop installed, download it from the official Power BI 
   website.
   2.Clone the Repository: Clone or download this repository to your local machine.
