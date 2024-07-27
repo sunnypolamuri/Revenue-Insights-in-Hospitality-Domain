@@ -1,22 +1,25 @@
 # Revenue-Insights-in-Hospitality-Domain
 
-Introduction:
+# Introduction:
 "Revenue Insights in Hospitality" is a data analysis project focused on providing comprehensive insights into the revenue patterns within the hospitality industry. This project leverages Power BI to visualize and analyze key metrics, trends, and factors that influence revenue in the hospitality sector.
 
-Prerequisites:
+# Prerequisites:
 Before you begin, ensure you have the following software installed:
-1.Microsoft Power BI Desktop
-2.A compatible operating system (Windows 10 or later)
-3.Basic knowledge of Power BI and data visualization
+  1.Microsoft Power BI Desktop
+  2.A compatible operating system (Windows 10 or later)
+  3.Basic knowledge of Power BI and data visualization
 
-File Description:
+# File Description:
 Revenue Insights in Hospitality.pbix: This is the main Power BI file containing all the data models, reports, and visualizations related to the project.
 
-Installation:
-1.Download Power BI Desktop: If you don't already have Power BI Desktop installed, download it from the official Power BI website.
-2.Clone the Repository: Clone or download this repository to your local machine.
-"git clone https://github.com/yourusername/Revenue-Insights-Hospitality.git"
-3.Open the PBIX File: Launch Power BI Desktop and open the Revenue Insights in Hospitality.pbix file from the cloned repository or the downloaded file location.
+# Installation:
+
+  1.Download Power BI Desktop: If you don't already have Power BI Desktop installed, download it from the official Power BI 
+  website.
+  2.Clone the Repository: Clone or download this repository to your local machine.
+  "git clone https://github.com/yourusername/Revenue-Insights-Hospitality.git"
+  3.Open the PBIX File: Launch Power BI Desktop and open the Revenue Insights in Hospitality.pbix file from the cloned 
+  repository or the downloaded file location.
 
 Features:
 Revenue Analysis: Detailed analysis of revenue streams, including seasonal trends, geographical distribution, and service-specific performance.
