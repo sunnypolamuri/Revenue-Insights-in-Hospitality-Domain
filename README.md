@@ -3,7 +3,7 @@
 # Introduction:
 "Revenue Insights in Hospitality" is a data analysis project focused on providing comprehensive insights into the revenue patterns within the hospitality industry. This project leverages Power BI to visualize and analyze key metrics, trends, and factors that influence revenue in the hospitality sector.
 
-# Prerequisites:
+# Prerequisites: 
 
   Before you begin, ensure you have the following software installed:
   
